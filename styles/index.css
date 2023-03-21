@@ -203,6 +203,7 @@ a {
    .logo {
       width: 40px;
       height: 40px;
+      z-index: 10;
    }
 
    .nav-items {
@@ -220,8 +221,8 @@ a {
       height: 100%;
       z-index: 3;
       -webkit-appearance: none;
-      backdrop-filter: blur(30px);
-      -webkit-backdrop-filter: blur(0px);
+      backdrop-filter: blur(50px);
+      -webkit-backdrop-filter: blur(50px);
    }
 
    .nav-items.show {
