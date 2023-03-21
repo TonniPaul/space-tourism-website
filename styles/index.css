@@ -11,12 +11,12 @@
 :root {
    --primary: #979797;
    --white: #ffffff;
-   --darkGrey : #31333c;
+   --darkGrey: #31333c;
    --black: #0B0D17;
    --primary-font: 'Barlow', sans-serif;
    --secondary-font: 'Barlow Condensed', sans-serif;
    --header-font: 'Bellefair', serif;
-   --border : #38384b;
+   --border: #38384b;
 }
 
 a {
@@ -145,6 +145,7 @@ a {
       gap: 70px;
       text-align: center;
    }
+
    .explore {
       position: relative;
    }
@@ -202,32 +203,61 @@ a {
    .logo {
       width: 40px;
       height: 40px;
+      z-index: 5;
    }
 
    .nav-items {
-      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      padding: 2rem;
+      align-items: center;
+      opacity: 0;
+      transform: translateY(-200%);
+      transition: all 1s ease-in-out;
+      height: 100%;
+      z-index: 3;
+   }
+
+   .nav-items.show {
+      opacity: 1;
+      transform: translateY(0);
+   }
+
+   .nav-link {
+      padding: .5rem;
    }
 
    .mb-menu {
       display: block;
+      z-index: 5;
    }
+
    .home_main_container {
       padding: 30px 25px;
       gap: 30px;
    }
+
    .home_header_text {
       font-size: 15px;
    }
+
    .home_header_text_large {
       font-size: 70px;
    }
+
    .home_description_text {
       font-size: 14px;
    }
+
    .explore {
       width: 120px;
       height: 120px;
    }
+
    .explore-text {
       font-size: 20px;
    }
