@@ -225,6 +225,7 @@ a {
    .nav-items.show {
       opacity: 1;
       transform: translateY(0);
+      backdrop-filter: blur(30px);
    }
 
    .nav-link {
