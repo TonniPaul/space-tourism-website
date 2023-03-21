@@ -1,5 +1,5 @@
 .destination_container {
-   background-image: url("/starter-code/assets/destination/background-destination-desktop.jpg");
+   background-image: url(" /assets/destination/background-destination-desktop.jpg");
 }
 
 .number {
@@ -53,12 +53,12 @@
 
 @media (mex-width : 768px ) {
    .destination_container {
-      background-image: url("/starter-code/assets/destination/background-destination-tablet.jpg");
+      background-image: url(" /assets/destination/background-destination-tablet.jpg");
    }
 }
 
 @media (max-width: 500px) {
    .destination_container {
-      background-image: url("/starter-code/assets/destination/background-destination-mobile.jpg");
+      background-image: url(" /assets/destination/background-destination-mobile.jpg");
    }
 }
