@@ -1,0 +1,64 @@
+.destination_container {
+   background-image: url("/starter-code/assets/destination/background-destination-desktop.jpg");
+}
+
+.number {
+   color: var();
+}
+
+.destination_items {
+   display: flex;
+   gap: 20px;
+   list-style: none;
+}
+
+.destination_links {
+   padding-bottom: .5rem;
+}
+
+.destination_c {
+   padding-top: 4rem;
+}
+
+.destination_title {
+   font-family: var(--header-font);
+   font-size: 115px;
+}
+
+.destination_description {
+   padding-bottom: 3rem ;
+   border-bottom: 1px solid var(--border);
+   font-size: 18px;
+}
+
+.destination_data_description_container {
+   display: flex;
+   gap: 80px;
+   padding: 1rem 0;
+   text-transform: uppercase;
+}
+.destination_data {
+   display: grid;
+   gap: 5px;
+}
+.data_header {
+   font-family: var(--secondary_font);
+   color: var(--primary);
+}
+.data_details {
+   font-size: 28px;
+}
+
+/* ====== MEDIA QUERIES ======= */
+
+@media (mex-width : 768px ) {
+   .destination_container {
+      background-image: url("/starter-code/assets/destination/background-destination-tablet.jpg");
+   }
+}
+
+@media (max-width: 500px) {
+   .destination_container {
+      background-image: url("/starter-code/assets/destination/background-destination-mobile.jpg");
+   }
+}
