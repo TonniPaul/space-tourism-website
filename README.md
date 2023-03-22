@@ -51,11 +51,11 @@ Built this project using Web-first approach
 
 - I learnt How to use the CSS order property
 
-```js
+<!-- ```js
 const proudOfThisFunc = () => {
   console.log('🎉')
 }
-```
+``` -->
 
 
 ### Continued development
