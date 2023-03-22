@@ -234,6 +234,11 @@ a {
       -webkit-backdrop-filter: blur(20px);
    }
 
+   .home_blur {
+      backdrop-filter: blur(70px);
+      -webkit-backdrop-filter: blur(70px);
+   }
+
    .nav-items.show {
       opacity: 1;
       transform: translateY(0);
