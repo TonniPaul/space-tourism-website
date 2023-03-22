@@ -49,6 +49,8 @@ Built this project using Web-first approach
 
 ### What I learned
 
+- I learnt How to use the CSS order property
+
 ```js
 const proudOfThisFunc = () => {
   console.log('🎉')

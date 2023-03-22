@@ -12,6 +12,7 @@
    --primary: #979797;
    --white: #ffffff;
    --darkGrey: #31333c;
+   --powderBlue :#D0D6F9;
    --black: #0B0D17;
    --primary-font: 'Barlow', sans-serif;
    --secondary-font: 'Barlow Condensed', sans-serif;
@@ -43,6 +44,15 @@ a {
    width: 48px;
 }
 
+.nav > a {
+   width: 48px;
+   height: 48px;
+}
+
+.logo {
+   width: inherit;
+}
+
 .nav-hr {
    background: #FFFFFF;
    mix-blend-mode: normal;
@@ -55,7 +65,6 @@ a {
    display: flex;
    list-style: none;
    background-color: rgba(255, 255, 255, 0.04);
-   ;
    backdrop-filter: blur(40.7742px);
    gap: 40px;
    padding: 0 4rem;
@@ -203,6 +212,7 @@ a {
    .logo {
       width: 40px;
       height: 40px;
+      z-index: 5;
    }
 
    .nav-items {
